@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  *
- * @author steven
+ * @author Steven Martin
  */
 public class ClienteDaoJDBC {
 
