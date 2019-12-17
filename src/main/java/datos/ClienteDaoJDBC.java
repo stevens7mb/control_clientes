@@ -12,12 +12,12 @@ public class ClienteDaoJDBC {
 
     private static final String SQL_SELECT = "SELECT idcliente, nombre, apellido, email, telefono, saldo "
             + " FROM cliente";
-    private static final String SQL_SELECT_BY_ID = "SELECT idcliente, nombre, apellido, email, telefono, saldo"
-            + "FROM cliente WHERE idcliente=?";
+    private static final String SQL_SELECT_BY_ID = "SELECT idcliente, nombre, apellido, email, telefono, saldo "
+            + " FROM cliente WHERE idcliente=?";
     private static final String SQL_INSERT = "INSERT INTO cliente(nombre, apellido, email, telefono, saldo)"
             + "VALUES(?,?,?,?,?)";
-    private static final String SQL_UPDATE = "UPDATE cliente"
-            + "SET nombre=?, apellido=?, email=?, telefono=?, saldo=? WHERE idcliente=?";
+    private static final String SQL_UPDATE = "UPDATE cliente "
+            + " SET nombre=?, apellido=?, email=?, telefono=?, saldo=? WHERE idcliente=?";
     private static final String SQL_DELETE = "DELETE FROM cliente WHERE idcliente = ?";
 
     public List<Cliente> listar() {
